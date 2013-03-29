@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<sensors>
+    <sensors name="sensor2" monthlyMin="14.0" monthlyMax="101.0"/>
+    <sensors name="sensor1" dailyMin="15.0" dailyMax="100.0"/>
+</sensors>
