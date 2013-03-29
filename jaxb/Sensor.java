@@ -12,6 +12,23 @@ public class Sensor {
     private Float monthlyMax;
     private Float yearlyMin;
     private Float yearlyMax;
+    private Float[] mins = new Float[4];
+
+    @XmlAttribute
+    public Float[] getMins(){
+        return mins;
+    }
+
+    public void setMins(Float[] mins){
+        int i = 0;
+        for(Float f : mins){
+            this.mins[i] = f;
+            i++;
+            if(i == mins.length){
+                break;
+            }
+        }
+    }
 
     @XmlAttribute
     public Float getDailyMin() {
